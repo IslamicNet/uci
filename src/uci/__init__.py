@@ -1,4 +1,12 @@
 from stop_words import stop_words
+import nltk
+from nltk.corpus import words
+try:
+    nltk.data.find('corpora/words.zip')
+except LookupError:
+    nltk.download('words')
+
+vocab = set(words.words())
 
 
 class UCI:
@@ -7,13 +15,14 @@ class UCI:
     Attributes
     ----------
     number: int
-        Number must be greater than 46654 or where it end
+        Number must be greater than 246654 or where it end,
+        or start it from 246655
     """
 
     def __init__(self, number):
-        if not isinstance(number, (int, long)):
+        if not isinstance(number, int):
             raise TypeError('number must be an integer')
-        if number <= 46654:
+        if number <= 246654:
             raise ValueError('number must be greater than 46654')
 
         self.number = number
