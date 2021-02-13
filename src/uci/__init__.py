@@ -23,7 +23,7 @@ class UCI:
         if not isinstance(number, int):
             raise TypeError('number must be an integer')
         if number <= 246654:
-            raise ValueError('number must be greater than 46654')
+            raise ValueError('number must be greater than 246654')
 
         self.number = number
 
