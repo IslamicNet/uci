@@ -1,4 +1,4 @@
-from stop_words import stop_words
+from uci.stop_words import stop_words
 import nltk
 from nltk.corpus import words
 try:
