@@ -15,15 +15,15 @@ class UCI:
     Attributes
     ----------
     number: int
-        Number must be greater than 246654 or where it end,
-        or start it from 246655
+        Number must be greater than 337184 or where it end,
+        or start it from 337185
     """
 
     def __init__(self, number):
         if not isinstance(number, int):
             raise TypeError('number must be an integer')
-        if number <= 246654:
-            raise ValueError('number must be greater than 246654')
+        if number <= 337184:
+            raise ValueError('number must be greater than 337184')
 
         self.number = number
 
