@@ -4716,7 +4716,43 @@ abuse_words = [
     "xxxv",
     "xxxw",
     "xxxy",
-    "xxxz"
+    "xxxz",
+    "xnx0",
+    "xnx1",
+    "xnx2",
+    "xnx3",
+    "xnx4",
+    "xnx5",
+    "xnx6",
+    "xnx7",
+    "xnx8",
+    "xnx9",
+    "xnxa",
+    "xnxb",
+    "xnxc",
+    "xnxd",
+    "xnxe",
+    "xnxf",
+    "xnxg",
+    "xnxh",
+    "xnxi",
+    "xnxj",
+    "xnxk",
+    "xnxl",
+    "xnxm",
+    "xnxn",
+    "xnxo",
+    "xnxp",
+    "xnxq",
+    "xnxr",
+    "xnxs",
+    "xnxt",
+    "xnxu",
+    "xnxv",
+    "xnxw",
+    "xnxx",
+    "xnxy",
+    "xnxz"
 ]
 
 same_chars = [
@@ -4758,4 +4794,4 @@ same_chars = [
     "zzzz"
 ]
 
-stop_words = english_words + abuse_words
+stop_words = english_words + abuse_words + same_chars
